@@ -6,6 +6,6 @@ target  =>  git file
 
 when this file runs will move 1 file source to target and push changes to github.
 
-You can use this for better looking github pages. Like every sunday write 7 file and run this command every day. 
+You can use this for better looking github pages 	easily . Like every sunday write 7 file and run this command every day. 
 
 For run this file automatically you can use tash scheduler in windows.
