@@ -17,6 +17,7 @@ cd D:\Projeler\Github\Code-For-Fun
 git init
 
 :: if you don't wanna to delete anything from github delete "git pull" command 
+:: change Code-For-Fun as your repostory name
 git pull master Code-For-Fun
 
 ::Add all files in the directory
