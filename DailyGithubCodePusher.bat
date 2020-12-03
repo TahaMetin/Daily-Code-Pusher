@@ -10,13 +10,13 @@ for %%F in ("%source%\*.txt") do (
 )
 :break
 :: Navigate to the directory you wish to push to GitHub
-::Change <path> as needed.
+::Change D:\Projeler\Github\Code-For-Fun as needed.
 cd D:\Projeler\Github\Code-For-Fun
 
 ::Initialize GitHub
 git init
 
-::Pull any external changes (maybe you deleted a file from your repo?)
+:: if you don't wanna to delete anything from github delete "git pull" command 
 git pull master Code-For-Fun
 
 ::Add all files in the directory
