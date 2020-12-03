@@ -10,7 +10,7 @@ for %%F in ("%source%\*.txt") do (
 )
 :break
 :: Navigate to the directory you wish to push to GitHub
-::Change <path> as needed. Eg. C:\Users\rich\Desktop\Writings
+::Change <path> as needed.
 cd D:\Projeler\Github\Code-For-Fun
 
 ::Initialize GitHub
@@ -23,7 +23,6 @@ git pull master Code-For-Fun
 git add --all
 
 ::Commit all changes with the message "auto push". 
-::Change as needed.
 git commit -m "auto push"
 
 ::Push all changes to GitHub 
