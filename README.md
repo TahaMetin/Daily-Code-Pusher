@@ -1,2 +1,9 @@
 # Daily Code Pusher
  Daily github code pusher for windows
+
+source  =>  storage for code	
+target  =>  git file 
+
+when this file runs will move 1 file source to target and push changes to github.
+
+You can use this for better looking github pages. Like every sunday write 7 file and run this command every day. 
