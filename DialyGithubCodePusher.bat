@@ -23,7 +23,6 @@ git pull master Code-For-Fun
 git add --all
 
 ::Commit all changes with the message "auto push". 
-::Change as needed.
 git commit -m "auto push"
 
 ::Push all changes to GitHub 
