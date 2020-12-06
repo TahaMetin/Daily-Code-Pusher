@@ -3,7 +3,7 @@ setlocal
 set "source=D:\Projeler\Github\Code-For-Fun-Depo"
 set "target=D:\Projeler\Github\Code-For-Fun"
 if not exist "%target%\" md "%target%"
-for %%F in ("%source%\*.txt") do (
+for %%F in ("%source%\*") do (
   set "file=%%~nxF"
   move "%%F" "%target%" >nul
   goto :break
